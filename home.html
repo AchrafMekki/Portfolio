@@ -1,0 +1,46 @@
+<!--Inform the browser about the version of html-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Achraf Portfolio</title>
+        <link href="Assets/CSS/home.css" rel="stylesheet" type="text/css"/>
+        <!--internal CSS-->
+        <style>
+            body{
+                background-color: aliceblue;
+                font-family: 'Courier New', Courier, monospace;
+                width:70%;
+                margin: 0 auto;
+                text-align: center;
+            }
+            h1 {
+                color: blue;
+                text-align: center;
+                font-size: 50px;
+            }
+
+        </style>
+    </head>
+    <!--Where the content belongs-->
+    <body>
+        <!--Heading 1-->
+        <h1>About Me</h1>
+        <img width="400"  alt="Natur" src="Assets/Images/csm_shutterstock_Romolo_Tavani_274566236_gespiegelt_b2d0be257c.jpg"/>
+
+        <!--Paragraph-->
+        <p>Achraf is looking for a <span style="color:rgb(255, 0, 34);">job</span></p>
+        <p>He is currently a Student at <a id="dci" href="https://digitalcareerinstitute.org/">DCI</a></p>
+        <h3>Skills</h3>
+        
+        <ul id="skill-list">
+            <li>Python</li>
+            <li>Django</li>
+            <li>API Design</li>
+        </ul>
+        <!--to add horizontal line-->
+        <hr />
+        <img src="data:image/png;base64,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" />
+        <br />
+        <a href="https://github.com/AchrafMekki">GitHub</a>
+    </body>
+</html>
